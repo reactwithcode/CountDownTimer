@@ -108,14 +108,12 @@ class CountDownTimer extends Component {
 
   internal = null;
 
-  // if there is change
   componentDidUpdate(prevProp, prevState) {
     if (this.state.remainingSeconds === 0 && prevState.remainingSeconds !== 0) {
       this.stop();
     }
   }
 
-  // once
   componentDidMount() {
     if (this.interval) {
       clearInterval(this.interval);
