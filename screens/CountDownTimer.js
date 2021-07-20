@@ -17,11 +17,11 @@ import {ArrowForwardIcon, NativeBaseProvider, Fab} from 'native-base';
 
 import {
   WheelPicker,
-  TimePicker,
-  DatePicker,
+  // TimePicker,
+  // DatePicker,
 } from 'react-native-wheel-picker-android';
 
-import {Picker} from '@react-native-picker/picker';
+// import {Picker} from '@react-native-picker/picker';
 
 const screen = Dimensions.get('window');
 
